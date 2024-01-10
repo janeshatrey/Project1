@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            top: 0px;
+            left: 0px;
+            width: 1920px;
+            height: 1253px;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+
+        .content1 {
+            top: 0px;
+            left: 0px;
+            width: 1920px;
+            height: 40px;
+            background: #2A5E31 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+
+        .tut1 p {
+            margin: 20px;
+            padding-top: 10px;
+            padding-left: 45px;
+            top: 300px;
+            left: 98px;
+            width: 502px;
+            height: 20px;
+            color: white;
+            text-align: left;
+            letter-spacing: 0px;
+            opacity: 1;
+        }
+
+        #jan1 {
+            top: 0px;
+            left: 428px;
+            width: 74px;
+            height: 20px;
+            text-align: left;
+            text-decoration: underline;
+            font: normal normal 600 15px/20px Open Sans;
+            letter-spacing: 0px;
+            color: #3BB64C;
+        }
+
+        .tut2 p {
+            /* Layout Properties */
+            position: absolute;
+            right: 34px;
+            top: 10px;
+            left: 1220px;
+            width: 602px;
+            height: 20px;
+            /* UI Properties */
+            opacity: 1;
+        }
+
+        #num1 img {
+            position: relative;
+            display: flex;
+            top: 15px;
+            left: -20px;
+            background: transparent url('img/Group 8331.png') 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+
+        #num2 img {
+            position: relative;
+            display: flex;
+            top: 15px;
+            left: -20px;
+            background: transparent url('img/Group 8332.png') 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+
+        #num3 img {
+            position: relative;
+            top: 3px;
+            left: 0px;
+            background: transparent url('img/mail.png') 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+
+        #num1 {
+            display: inline-block;
+            padding-top: 5px;
+            top: 0px;
+            left: 1244px;
+            width: 115px;
+            height: 20px;
+            text-align: left;
+            font: normal normal normal 15px/16px Open Sans;
+            letter-spacing: 0px;
+            color: white;
+            opacity: 1;
+        }
+
+        #num2 {
+            display: inline-block;
+            padding-top: 5px;
+            top: 0px;
+            left: 1414px;
+            width: 115px;
+            height: 20px;
+            text-align: left;
+            font: normal normal normal 15px/16px Open Sans;
+            letter-spacing: 0px;
+            color: white;
+            opacity: 1;
+        }
+
+        #num3 {
+            display: block;
+            padding: 5px;
+            top: 10px;
+            left: 1590px;
+            width: 232px;
+            height: 20px;
+            text-align: left;
+            font: normal normal normal 15px/16px Open Sans;
+            letter-spacing: 0px;
+            color: white;
+            opacity: 1;
+        }
+
+        .left {
+            padding-left: 50px;
+            top: 61px;
+            left: 98px;
+            width: 145px;
+            height: 45px;
+            background: transparent url('img/img1.png') 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+
+        .bar input {
+            top: 80px;
+            left: 1135px;
+            width: 530px;
+            height: 38px;
+            position: absolute;
+            right: 34px;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 1px solid #D8D8D8;
+            border-radius: 3px;
+            opacity: 1;
+        }
+
+        .bar img {
+            /* Layout Properties */
+            position: absolute;
+            top: 90px;
+            left: 1635px;
+            width: 20px;
+            height: 20px;
+            /* UI Properties */
+            background: transparent url('img/search.png') 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+
+        ::placeholder {
+            /* Layout Properties */
+            padding: 20px;
+            top: 80px;
+            left: 1145px;
+            width: 115px;
+            height: 20px;
+            /* UI Properties */
+            text-align: left;
+            font: normal normal normal 15px/20px Open Sans;
+            letter-spacing: 0px;
+            color: #707070;
+            opacity: 1;
+        }
+
+        .log img {
+            position: absolute;
+            top: 80px;
+            left: 1720px;
+            width: 25px;
+            height: 25px;
+            opacity: 1;
+        }
+
+        .login a {
+            /* Layout Properties */
+            position: absolute;
+            top: 110px;
+            left: 1720px;
+            width: 36px;
+            height: 19px;
+            /* UI Properties */
+            text-decoration: none;
+            text-align: left;
+            font: normal normal normal 14px/20px Open Sans;
+            letter-spacing: 0px;
+            color: #2A2A2A;
+            opacity: 1;
+        }
+
+        .cart img {
+            position: absolute;
+            top: 80px;
+            left: 1786px;
+            width: 26px;
+            height: 25px;
+            background: transparent url('img/Group 8321.png') 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+
+        .cart1 a {
+            position: absolute;
+            top: 110px;
+            left: 1786px;
+            width: 27px;
+            height: 19px;
+            text-align: left;
+            font: normal normal normal 14px/16px Open Sans;
+            letter-spacing: 0px;
+            color: #2A2A2A;
+            opacity: 1;
+            text-decoration: none;
+        }
+
+        .navbar ul li {
+            display: inline-block;
+            padding: 140px;
+            padding-top: 2%;
+            opacity: 1;
+            padding-inline-start: 0%;
+            display: inline-block;
+            color: black;
+
+        }
+
+        .btn {
+            position: absolute;
+            top: 160px;
+            left: 1722px;
+            width: 100px;
+            height: 30px;
+            background: #39B54A 0% 0% no-repeat padding-box;
+            color: white;
+            text-align: center;
+            font: normal normal 600 15px/17px Open Sans;
+            border-radius: 3px;
+            opacity: 1;
+        }
+
+        .h1-primary h1 {
+            position: absolute;
+            top: 304px;
+            left: 119px;
+            width: 775px;
+            height: 78px;
+            text-align: left;
+            font: normal normal normal 57px/68px Open Sans;
+            letter-spacing: 0px;
+            color: #000000;
+            opacity: 1;
+        }
+
+        .list1 img {
+            padding-left: 10px;
+            position: absolute;
+            top: 470px;
+            left: 121px;
+            width: 78px;
+            height: 105px;
+            background: transparent url('img/Group 7.png') 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+
+        .list1 ul li h2 {
+            position: absolute;
+            top: 443px;
+            left: 234px;
+            width: 201px;
+            height: 38px;
+            text-align: left;
+            font: normal normal normal 28px/31px Open Sans;
+            letter-spacing: 0px;
+            color: #5E6282;
+            opacity: 1;
+        }
+
+        .list1 ul li p {
+            position: absolute;
+            top: 492px;
+            left: 234px;
+            width: 476px;
+            height: 63px;
+            text-align: left;
+            font: normal normal 300 23px/31px Open Sans;
+            letter-spacing: 0px;
+            color: #5E6282;
+            opacity: 1;
+        }
+
+        .list2 img {
+            padding-left: 10px;
+            position: absolute;
+            top: 625px;
+            left: 121px;
+            width: 78px;
+            height: 105px;
+            background: transparent url('img/Group 7.png') 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+
+        .list2 ul li h2 {
+            position: absolute;
+            top: 621px;
+            left: 234px;
+            width: 192px;
+            height: 38px;
+            text-align: left;
+            font: normal normal normal 28px/31px Open Sans;
+            letter-spacing: 0px;
+            color: #5E6282;
+            opacity: 1;
+        }
+
+        .list2 ul li p {
+            position: absolute;
+            /* Layout Properties */
+            top: 670px;
+            left: 234px;
+            width: 471px;
+            height: 63px;
+            /* UI Properties */
+            text-align: left;
+            font: normal normal 300 23px/31px Open Sans;
+            letter-spacing: 0px;
+            color: #5E6282;
+            opacity: 1;
+        }
+
+        .list3 img {
+            padding-left: 10px;
+            position: absolute;
+            top: 785px;
+            left: 121px;
+            width: 78px;
+            height: 105px;
+            background: transparent url('img/Group 7.png') 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+
+        .list3 ul li h2 {
+            position: absolute;
+            top: 781px;
+            left: 234px;
+            width: 180px;
+            height: 38px;
+            text-align: left;
+            font: normal normal normal 28px/31px Open Sans;
+            letter-spacing: 0px;
+            color: #5E6282;
+            opacity: 1;
+        }
+
+        .list3 ul li p {
+            position: absolute;
+            top: 830px;
+            left: 234px;
+            width: 469px;
+            height: 63px;
+            text-align: left;
+            font: normal normal 300 23px/31px Open Sans;
+            letter-spacing: 0px;
+            color: #5E6282;
+            opacity: 1;
+        }
+
+        .btn2 {
+            position: absolute;
+            top: 995px;
+            left: 121px;
+            width: 295px;
+            height: 80px;
+            background: #2A5E31 0% 0% no-repeat padding-box;
+            box-shadow: 15px 15px 50px #7042DC1F;
+            border-radius: 46px;
+            opacity: 1;
+            text-align: center;
+            font: normal normal normal 23px/32px Open Sans;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+
+        #big1 {
+            position: absolute;
+            top: 250px;
+            left: 987px;
+            width: 814px;
+            height: 880px;
+            background: transparent url('img/OBJECTS.png') 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+
+        #options {
+            top: 164px;
+            left: 942px;
+            width: 100px;
+            height: 190px;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            box-shadow: 0px 3px 6px #00000029;
+            border-radius: 11px;
+            opacity: 1;
+        }
+
+        #opt1 {
+            position: absolute;
+            top: 184px;
+            left: 920px;
+            width: 61px;
+            height: 20px;
+            text-align: left;
+            font: normal normal normal 15px/20px Open Sans;
+            letter-spacing: 0px;
+            color: #2A5E31;
+            opacity: 1;
+            background: #D7F0DB 0% 0% no-repeat padding-box;
+            border-radius: 5px;
+        }
+
+        #opt2 {
+            position: absolute;
+            top: 216px;
+            left: 920px;
+            width: 61px;
+            height: 20px;
+            text-align: left;
+            font: normal normal normal 15px/20px Open Sans;
+            letter-spacing: 0px;
+            color: #2A2A2A;
+            opacity: 1;
+        }
+
+        #opt3 {
+            position: absolute;
+            top: 248px;
+            left: 920px;
+            width: 61px;
+            height: 20px;
+            text-align: left;
+            font: normal normal normal 15px/20px Open Sans;
+            letter-spacing: 0px;
+            color: #2A2A2A;
+            opacity: 1;
+        }
+
+        #opt4 {
+            position: absolute;
+            top: 280px;
+            left: 920px;
+            width: 61px;
+            height: 20px;
+            text-align: left;
+            font: normal normal normal 15px/20px Open Sans;
+            letter-spacing: 0px;
+            color: #2A2A2A;
+            opacity: 1;
+        }
+
+        #opt5 {
+            position: absolute;
+            top: 312px;
+            left: 920px;
+            width: 61px;
+            height: 20px;
+            text-align: left;
+            font: normal normal normal 15px/20px Open Sans;
+            letter-spacing: 0px;
+            color: #2A2A2A;
+            opacity: 1;
+        }
+
+        #opt6 {
+            position: absolute;
+            top: 344px;
+            left: 920px;
+            width: 61px;
+            height: 20px;
+            text-align: left;
+            font: normal normal normal 15px/20px Open Sans;
+            letter-spacing: 0px;
+            color: #2A2A2A;
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div class="content1">
+            <div class="tut1">
+                <p>Lowest guaranteed prices acroos the globe. Get upto 50% off! <span id=jan1>Book now!</span></p>
+            </div>
+            <div class="tut2">
+                <p id="num1"> <img src="Group 8331.svg">&nbsp;+44 1615244345</p>
+                <p id="num2"><img src="Group 8332.svg">&nbsp;+44 1615244345</p>
+                <p id="num3"><img src="mail.svg">&nbsp;help@globalassignmenthelp.com</p>
+            </div>
+        </div>
+        <div class="left">
+            <p><img src="img1.png"></p>
+        </div>
+        <div class="bar">
+            <input type="text" placeholder="Enter a keyword"><img src="search.png">
+        </div>
+        <div class="log">
+            <img src="path7.png">
+            <div class="login"><a href="#">Login</a></button></div>
+        </div>
+        <div class="cart">
+            <img src="Group 8321.png">
+            <div class="cart1"><a href="#">Cart</a></button></div>
+        </div>
+
+        <div class="navbar">
+            <ul type="none">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+                <li>Item 5</li>
+                <li>Item 6><p id="options">
+                    <p id="opt1">Option 1</p>
+                    <p id="opt2">Option 2</p>
+                    <p id="opt3">Option 3</p>
+                    <p id="opt4">Option 4</p>
+                    <p id="opt5">Option 5</p>
+                    <p id="opt6">Option 6</p>
+                    </p>
+                </li>
+                <li>Item 7</li>
+                <li>Item 8</li>
+                <li>Item 9</li>
+                <li>Item 10</li>
+                <li><button class="btn">Order Now</button></li>
+            </ul>
+
+            <div class="h1-primary">
+                <h1>Get Your Next Job In 3 Steps</h1>
+            </div>
+
+            <div class="list1">
+                <img src="Group 7.svg">
+                <ul>
+                    <li>
+                        <h2>Create a Profile</h2>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p>It takes 60 seconds to sign-up and create your free skills profile.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list2">
+                <img src="Group 7 (1).svg">
+                <ul>
+                    <li>
+                        <h2>Instant Results</h2>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p>We match your profile directly to the available opportunities so you don't waste time.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list3">
+                <img src="Group 7 (2).svg">
+                <ul>
+                    <li>
+                        <h2>Apply Directly</h2>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p>After applying for the job, Your CV will be sent directly to the hiring manager.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <button class="btn2">Get Started Now!</button>
+
+            <img src="OBJECTS.svg" id="big1">
+
+
+        </div>
+
+
+
+    </div>
+
+
+</body>
+
+</html>
